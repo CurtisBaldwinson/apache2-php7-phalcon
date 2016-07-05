@@ -5,5 +5,5 @@ Based off of debian:latest
 
 Running this is easy:
 ```
-docker run -p 80:80 -v /var/www:/var/www -p 80:80 cbaldwinson/server
+docker run -p 80:80 -v /var/www:/var/www -p 80:80 cbaldwinson/server-phalcon
 ```
