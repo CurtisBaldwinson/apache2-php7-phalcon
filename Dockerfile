@@ -1,4 +1,4 @@
-FROM cbaldwinson/server
+FROM cbaldwinson/apache2-php7
 MAINTAINER Curtis Baldwinson <curtisbaldwinson@gmail.com>
 
 RUN apt-get update &&\
