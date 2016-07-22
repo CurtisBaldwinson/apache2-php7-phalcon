@@ -14,7 +14,8 @@ RUN cd /tmp &&\
  cd cphalcon &&\
  git checkout 2.1.x &&\
  zephir build --backend=ZendEngine3 &&\
- echo "extension=phalcon.so" >> /etc/php/7.0/apache2/conf.d/30-phalcon.ini
+ echo "extension=phalcon.so" >> /etc/php/7.0/apache2/conf.d/30-phalcon.ini &&\
+ echo "extension=phalcon.so" >> /etc/php/7.0/cli/conf.d/30-phalcon.ini
 
 EXPOSE 80
 
